@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Veri Depolama Sistemi</h1>
+    <table>
+        <tr>
+            <td>İsim Soyisim:</td>
+            <td><input type="text" id="girdi1"></td>
+        </tr>
+        <tr>
+            <td>Doğum Tarihi(Yıl):</td>
+            <td><input type="number" id="girdi2"></td>
+        </tr>
+        <tr>
+            <td>Telefon Numarası:</td>
+            <td><input type="tel" id="girdi3"></td>
+        </tr>
+        <tr>
+            <td><button onclick="ekleme()" id="kaydet">Ekle</button><button onclick="window.location.reload()">Sıfırla</button></td>
+        </tr>
+    </table>
+    <br><br>
+    <h3>Depolanan Veriler</h3>
+    <textarea id="kaydedilenVeriler" cols="30" rows="30" disabled></textarea><br>
+    <button id="sil" onclick="silme()">Tüm Verileri Sil</button>
+    <script src="code.js"></script>
+</body>
+</html>

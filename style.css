@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    background-color: gray;
+    border-radius: 5px;
+    margin-left: 43%;
+}
+h1{
+    margin-left: 42%;
+}
+h3{
+    margin-left: 95px;
+}
+td{
+    width: 140px;
+    height: 30px;
+}
+input{
+    width: 140px;
+    height: 20px;
+    border-radius: 1px;
+}
+textarea{
+    margin-left: 50px;
+    resize: none;
+    background-color: green;
+    color: yellow;
+}
+button{
+    background-color: blanchedalmond;
+    color: red;
+    border-radius: 4px;
+    width: 50%;
+    height: 25px;
+}
+button:hover,.sil{
+    background-color: green;
+    color: greenyellow;
+}
+button:active,.sil{
+    transform: scale(0.9);
+}
+#sil{
+    margin-left: 50px;
+    width: 240px;
+}
